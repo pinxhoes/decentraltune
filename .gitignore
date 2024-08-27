@@ -1,0 +1,9 @@
+# Common ignores
+node_modules
+.env
+.env*.local
+.DS_Store
+
+# IDE files
+.vscode
+.idea
