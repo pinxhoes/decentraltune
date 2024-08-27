@@ -27,7 +27,9 @@ export default function Home() {
   if (!session) {
     return (
       <div>
-        <h1>Welcome to DecentralTune</h1>
+
+        <h1>Find Your Music Match</h1>
+
         <button onClick={() => signIn("spotify")}>Sign in with Spotify</button>
       </div>
     )

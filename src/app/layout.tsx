@@ -1,7 +1,5 @@
-
-
-import type { Metadata } from 'next';
-import { SessionProvider } from "next-auth/react";
+import type { Metadata } from 'next'
+import { Providers } from '../app/providers'
 
 export const metadata: Metadata = {
   title: 'DecentralTune',
@@ -16,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <SessionProvider>{children}</SessionProvider>
+        <Providers>{children}</Providers>
       </body>
     </html>
   )
